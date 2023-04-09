@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Trendyol API Suite" verbose="1">
+    <test name="Trendyol API Test">
+        <classes>
+            <class name="com.Tests.API_PutTests"></class>
+            <class name="com.Tests.API_GetTests"></class>
+        </classes>
+    </test>
+</suite>
